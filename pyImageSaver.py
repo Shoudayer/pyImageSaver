@@ -73,7 +73,7 @@ class pyImageSaver():
             print('saving :'+self.getFileName(img))
             self.saveImg(img,self.getFileName(img))
 
-    def saveImgsWNumber(self,imgsList,baseurl='http://statsroyale.com/images/cards/full/'):
+    def saveImgsWNumber(self,imgsList,baseurl):
         i = 0
         for img in imgsList:
             i+=1
